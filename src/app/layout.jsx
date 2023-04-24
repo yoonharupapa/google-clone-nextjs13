@@ -5,6 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  icons: {
+  icon: "favicon.svg",
   title: 'Go0gIe',
   description: 'NEXT JS by 42',
 }
